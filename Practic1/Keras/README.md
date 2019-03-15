@@ -56,5 +56,7 @@ A. C. F. P
 
 (5) 모델 테스트                                  print("Target_label: ", y[2:])
                                                 print("Predictions: ", model.predict( x[2:]).flatten() ) 
-
 ```
+***
+## Map 
+![](./Mapping.png)
