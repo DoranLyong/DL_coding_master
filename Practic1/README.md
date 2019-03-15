@@ -15,11 +15,11 @@
 * Only numpy 
 
 *** 
-# Problem 
+# Overview 
 ![](./image/summary.PNG)
 
 
 # Terminology 
 * FC-layer 
-> fully-connected layer = Dense layer 
+> fully-connected layer = Dense layer <br/>
 > 완전 연결 계층 = 빽빽하게 연결된 계층 
