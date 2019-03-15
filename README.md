@@ -1,6 +1,6 @@
 # Deep Learning Coding Master 
 *** 
-coding tutorial for modeling deep learning networks 
+An coding tutorial for modeling deep learning networks 
 
 
 ### How to practice 
