@@ -12,14 +12,13 @@ def Dataset():
     Y = 10*X + 1      
     return X, Y      
 
-def Evaluate(model):
-    
+def Evaluate(model):    
     print("Target_label: ", Y[4:])
     print("Predictions: ", model.predict(X[4:]).flatten())
     print("\n", "Evalutaion done!")
 
-def main():
 
+def main():
     # Load D___
     global X, Y
     X, Y = Dataset() # (input, output)      
@@ -38,9 +37,6 @@ def main():
     
     # E_______
     Evaluate(model)
-
-
-
 
 
 if __name__ == "__main__":
