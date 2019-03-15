@@ -11,8 +11,15 @@
 <br/>
 
 ## Implementation with
-* Keras 
+* [Keras](https://github.com/DoranLyong/DL_coding_master/tree/master/Practic1/Keras) 
 * Only numpy 
 
 *** 
 # Problem 
+![](./image/summary.PNG)
+
+
+# Terminology 
+* FC-layer 
+> fully-connected layer = Dense layer 
+> 완전 연결 계층 = 빽빽하게 연결된 계층 
