@@ -6,7 +6,7 @@ import numpy as np
 def step_function(x): # p.69
     return np.array( x>0, dtype=np.int)
 
-def identity(x):  # p.88
+def identity(x):  # p.88, p.91
     return x
 
 def sigmoid(x):   # p.72 
