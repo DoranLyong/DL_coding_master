@@ -18,4 +18,6 @@ Self study about deep learning coding without any deep learning API
 ## Table 
 (1) [Requirement](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/Requirement)
 
+(2) [Signal Transmitting](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/1_NN)
+
 
