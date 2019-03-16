@@ -16,6 +16,7 @@
 
     > 3차원 이상으로 늘어놓은 것 (n, m, z)⇒ Tensor 
 
+※ [배열 자료 구조](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/Requirement#Numpy)
 
 __EXAMPLE__ -- 1차원 배열
 ```python
