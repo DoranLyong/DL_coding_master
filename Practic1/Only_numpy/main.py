@@ -16,7 +16,7 @@ def main():
     # Load D___
     X, Y = Dataset() 
 
-        # mini_batch 
+     
     (x_train, y_train), (x_test, y_test) = (X[:4], Y[:4]), (X[4:], Y[4:]) 
     print("train_shape: ", x_train.shape)
     print("test_shape: ", x_test.shape, "\n")
@@ -24,7 +24,10 @@ def main():
 
 
     # D_____ the network 
-
+    
+    ## Affine_transform for dense-layer 
+    X = np.array
+    
 
 
     

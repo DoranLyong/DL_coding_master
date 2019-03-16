@@ -23,4 +23,4 @@
 # Terminology 
 * FC-layer 
 > fully-connected layer = Dense layer <br/>
-> 완전 연결 계층 = 빽빽하게 연결된 계층 
+> 완전 연결 계층 = 빽빽하게 연결된 계층             
