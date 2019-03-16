@@ -7,7 +7,7 @@ This tutorial needs below things<br/>
 <br/>
 
 ## Required packages
-* Python3 
+* Python3
 * Numpy 
 * matplotlib 
 
@@ -16,10 +16,13 @@ Installed them with [Anaconda](https://www.anaconda.com/) <br/>
 <br/>
 
 # Required Knowledge 
-* python 문법 
-* numpy 연산 
+* [python 문법](#python)
+* [numpy 연산](#Numpy)
 * matplotlib으로 그래프 그리기 
-## Python
+
+
+
+## Python 
 
 ### (1) Arithmetic operation
 객체를 연산한다 
@@ -239,10 +242,14 @@ import numpy as np
 * '원소별' 연산 
     > element-wise operation 
 * 브로드캐스트(broadcast)
-    > '배열'과 '스칼라 값'의 조합으로 된 산술연산 
+    > '배열'과 '스칼라 값'의 조합으로 된 산술연산 <br/>
+    [ (Numpy는 스칼라를 ( ) shape의 배열로 인식하거든) ](https://blog.naver.com/cheeryun/221259007518)
+
 
     > 배열의 원소별로 한 번씩 스칼라 값과 수행됨<br/>
     (기본적으로 element-wise operation이니까 )<br/>
+
+* 원소 접근<sub>access</sub>
 
 <br/>
 
@@ -264,3 +271,77 @@ array([2., 8., 18.])
 >> x / y        # 원소별 나눗셈 
 array([0.5, 0.5, 0.5])
 ```
+
+<br/>
+
+브로드캐스팅 <br/>
+* [Rule](http://scipy.github.io/old-wiki/pages/EricsBroadcastingDoc) - 어디로 늘려줄까? 
+    >(1) 늘려주는<sub>streching</sub> 방향 빼고는 <b>각 축의 길이는 서로 같아야함</b> <br/>
+
+    >(2) 또는, 적어도 각 축의 <b>둘 중 하나는 1</b>이어야 함 <br/>
+
+__EXAMPLE__ <br/>
+```python
+(4D array)       a x b x z x n  shape 
+(2D array)               z x n  shape
+(result)         a x b x z x n  shape
+--------
+(4D array)       a x 1 x z x 1  shape 
+(2D array)           b x 1 x n  shape 
+(result)         a x b x z x n  shape 
+```
+<br/>
+
+__EXAMPLE 2__ <br/>
+<img src="./1D-broadcast.PNG" width=400, height=100>
+
+```pyhton
+>> a = np.array( [1, 2, 3] ) # array 
+>> b = 2                     # scalar
+>> a * b 
+array( [2., 4., 6.])
+```
+__[EXAMPLE 3](https://blog.naver.com/cheeryun/221259007518)__<br/>
+<img src="./broadcasting.png" width=350>
+
+```python
+>> a = np.array( [ [1, 2, 3], 
+                   [4, 5, 6], 
+                   [7, 8, 9] ])
+>> b = np.array( [1, 0, 1] )
+>> a + b
+array( [2, 2, 3], [5, 5, 7], [8, 8, 10] )
+```
+
+<br/>
+
+원소접근  <br/>
+* indexing 
+    > 인덱스를 배열로 지정해 한 번에 여러 원소에 접근 할 수도 있음 
+
+```python
+>> X = np.array( [ [51, 55], [14, 19], [0, 4] ])
+
+>> X[0]     # 0 번째 행의 객체에 접근 
+array( [51, 55] )
+
+>> X[0][1]  # 0 번째 행의 1번 째 원소에 접근 
+55
+```
+```python 
+>> A = X.flatten()        # Numpy method 
+>> print(A)
+array([51, 55, 14, 19,  0,  4])
+
+>> A[np.array( [0, 2, 4] )]  # 인덱스가 0, 2 ,4인 원소 얻기
+array([51, 14,  0])
+```
+```python
+>> A > 15 
+array([ True,  True, False,  True, False, False])
+
+>> A[ A > 15 ]    # True에 해당하는 인덱스의 원소만 얻기 
+array([51, 55, 19])
+```
+
+<img src="memory_structure.PNG">
