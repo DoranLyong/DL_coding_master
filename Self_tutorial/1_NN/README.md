@@ -1,3 +1,5 @@
+[ (Self_tutorial) ](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial)
+
 # 신경망의 신호전달 구현 
 
 예시_3층 신경망
