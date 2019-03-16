@@ -8,7 +8,7 @@ An coding tutorial for modeling deep learning networks <br/>
 > Keras 
 
 <br/>
-(2) Only python & numpy library 
+(2) Only python & numpy library <br/>
 ※ [Deep Learning from Scratch](https://github.com/WegraLee/deep-learning-from-scratch)
 <br/><br/>
 
