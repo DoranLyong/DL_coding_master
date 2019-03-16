@@ -1,3 +1,6 @@
+[ (Home) ](https://github.com/DoranLyong/DL_coding_master) <br/>
+[ (Self_tutorial) ](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial)
+
 # Before start...
 This tutorial needs below things<br/>
 
