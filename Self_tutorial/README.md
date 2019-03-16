@@ -16,7 +16,9 @@ Self study about deep learning coding without any deep learning API
 <br/>
 
 ## Table 
-(1) [Requirement](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/Requirement)
+(0) [Requirement](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/Requirement)
+
+(1) [Tensor Product in Neural Network](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/0_dot_array)
 
 (2) [Signal Transmitting](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/1_NN)
 
