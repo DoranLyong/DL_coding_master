@@ -10,7 +10,9 @@ An coding tutorial for modeling deep learning networks <br/>
 <br/>
 
 (2) Only python & numpy library <br/>
+* [Self_tutorial]()
 > ※ [Deep Learning from Scratch](https://github.com/WegraLee/deep-learning-from-scratch)
+
 
 
 <br/><br/>
