@@ -214,6 +214,7 @@ Good-bye, Giulia
 <br/>
 
 ## Numpy 
+* [Numpy에서 np.sum 함수의 axis 이해](http://taewan.kim/post/numpy_sum_axis/)
 ```python
 import numpy as np
 ```
