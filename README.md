@@ -8,8 +8,9 @@ An coding tutorial for modeling deep learning networks <br/>
 > Keras 
 
 <br/>
+
 (2) Only python & numpy library <br/>
- [ (link) ](https://github.com/DoranLyong/DL_coding_master/tree/master/Practic1)
+> [ (link) ](https://github.com/DoranLyong/DL_coding_master/tree/master/Practic1)
 
 
 <br/><br/>
