@@ -3,6 +3,16 @@
 # 신경망의 신호전달 구현 
 
 예시_3층 신경망
+> input_layer (0층) 노드 2개 <br/>
+
+> hidden-layer1 (1층) 노드 3개 
+
+> hidden-layer2 (2층) 노드 2개 
+
+> output-layer (3층) 노드 2개 
+
+※ [신경망에서의 행렬 곱]()
+
 
 <br/>
 
