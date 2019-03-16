@@ -68,6 +68,11 @@ Y = np.array( [y1, y2] )
 <br/>
 
 # 구현 정리 
+* forward( ) 
+    > 순전파 (신호가 순방향으로 전파됨)을 나타냄; propagation 
+
+    ※ 신호가 역방향(backward)으로 전파 ⇒ backpropagation 
+    > '신경망 학습<sub>learning</sub>에 사용 
 
 ```python
 def init_weight(): 

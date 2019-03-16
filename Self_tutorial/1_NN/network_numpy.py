@@ -1,3 +1,12 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*- 
+
+"""
+[Execute]
+~$ python ./network_numpy.py
+"""
+
+
 import numpy as np 
 from dlutile import Activation
 
