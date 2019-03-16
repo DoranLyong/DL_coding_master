@@ -2,11 +2,16 @@
 Self study about deep learning coding without any deep learning API
 
 ### Info
-* dlutile
+* [dlutile](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/dlutile)
+> my package for this tutorial 
+
+<br/>
 
 ### Resource 
-[Deep Learning from Scratch](https://github.com/WegraLee/deep-learning-from-scratch)
+* [Deep Learning from Scratch](https://github.com/WegraLee/deep-learning-from-scratch)
 
+
+<br/>
 
 ### Table 
 
