@@ -241,7 +241,7 @@ import numpy as np
     > '배열'과 '스칼라 값'의 조합으로 된 산술연산 
 
     > 배열의 원소별로 한 번씩 스칼라 값과 수행됨<br/>
-    (기본적으로 element-wise operation 이니까 )<br/>
+    (기본적으로 element-wise operation이니까 )<br/>
 
 <br/>
 
