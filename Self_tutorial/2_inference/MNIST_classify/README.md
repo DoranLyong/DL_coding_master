@@ -8,10 +8,10 @@
 
 * 구성 
     > 0 ~ 9 의 숫자 이미지 <br/>
-        >   * size: (28, 28) <br/>
-        >   * ndim: gray_scale ... (1-channel)<br/>
-        >   * value_range: [0, 255] <br/>
-        >   * train_set : 60,000장 , test_set: 10,000장  <br/>
+    * size: (28, 28) <br/>
+    * ndim: gray_scale ... (1-channel)<br/>
+    * value_range: [0, 255] <br/>
+    * train_set : 60,000장 , test_set: 10,000장  <br/>
 
     > 각 이미지에 ground_truth인 숫자 라벨<sub>label</sub> 이 붙어 있음
 
