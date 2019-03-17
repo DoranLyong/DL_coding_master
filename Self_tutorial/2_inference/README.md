@@ -28,3 +28,6 @@
         
 
 
+## 추론 예시 문제 
+* [MNIST 숫자 분류<sub>classification</sub>]()
+
