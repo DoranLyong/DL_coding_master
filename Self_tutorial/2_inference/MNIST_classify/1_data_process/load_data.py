@@ -1,6 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*- 
 
+"""
+.pkl 파일로 부터 데이터 로드 실험 
+
+"""
+
+
 import os, sys
 sys.path.append(os.pardir)    # 부모 디렉토리의 파일 가져올 수 있게 설정 
 import numpy as np 
