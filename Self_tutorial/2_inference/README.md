@@ -29,5 +29,5 @@
 
 
 ## 추론 예시 문제 
-* [MNIST 숫자 분류<sub>classification</sub>]()
+* [MNIST 숫자 분류<sub>classification</sub>](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/2_inference/MNIST_classify)
 
