@@ -3,7 +3,9 @@
 데이터가 물리적 메모리 공간을 차지하면 '객체' 
 
 # 데이터 처리 
-※ p.97
+p.97 <br/>
+
+※ [데이터 전처리](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/2_inference/MNIST_classify/1_data_process/data_preprocess) 
 
 <br/>
 

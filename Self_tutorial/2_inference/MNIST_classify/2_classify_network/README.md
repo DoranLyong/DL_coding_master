@@ -129,4 +129,4 @@ Accuracy to normalized: 0.9352
 ```
 
 ## 데이터를 정규화<sub>normalization</sub> 했을 때 성능이 더욱 좋다!
-※ [데이터 전처리(pre-processing)]()
+※ [데이터 전처리(pre-processing)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/2_inference/MNIST_classify/1_data_process/data_preprocess)
