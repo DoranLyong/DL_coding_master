@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*- 
+
 import sys, os 
 sys.path.append(os.pardir)   # 파이썬 모듈 위치 정보에 부모 디렉토리 추가 
 import numpy as np 
