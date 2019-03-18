@@ -2,6 +2,11 @@
 
 # MNIST number classification 
 
+p.96 <br/>
+
+모델이 학습됐다고 가정한 상태로 진행 
+> 사전 훈련된 모델을 통해 '추론' 단계 구현 
+
 
 ## Dataset
 * [MNIST_database](http://yann.lecun.com/exdb/mnist/)
