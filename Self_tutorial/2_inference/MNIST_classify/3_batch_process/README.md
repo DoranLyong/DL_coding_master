@@ -75,6 +75,11 @@
 ```python
 ...(생략)...
 
+"""
+Excute 
+~$ python3 ./nn_mnist_batch.py 
+"""
+
 
 nx_test, nt_test = load_normal_data() 
 weights = load_weight() 
