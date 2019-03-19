@@ -41,7 +41,7 @@
 
 <br/>
 
-## 1. ML 패러다임 
+## 1. ML 프레임워크  
 
 * (1) 특징<sub>feature</sub> 추출
     * Descriptor(특징 변환기) 以 데이터의 본질적인 정보를 추출하는 과정  
@@ -53,19 +53,28 @@
 
 <br/>
 
-## 2. ML 프레임 워크 
+## 2. ML 페러다임 변화  
 ### (1) 전통적인 머신 러닝 기법 
 *  특징 추출 + 기계 학습 
     > 여전히 사람이 descriptor를 설계해야함 
 
 ### (2) 딥러닝 기법 
-* end-to-end machine leanring(종단간 기계 학습)
-    > 처음부터 끝까지 '있는 그대로'의 데이터(입력)에서 목표한 결과(출력)을 얻음 <br/>
+* end-to-end machine leanring (종단간 기계 학습)
+    > 처음부터 끝까지 '<b>있는 그대로</b>'의 데이터(입력)에서 목표한 결과(출력)을 얻음 <br/>
     > (사람의 개입이 일절 없음 )
 * '특징 추출' 부분도 컴퓨터가 알아서 해줌 
+
 <center><img src="fig_4-2.png" width=450></center>
 
+<br/>
 
+### (※) 신경망(neural network)의 이점  
+* 모든 문제를 같은 맥락에서 풀 수 있음 
+    * 온전히 주어진 데이터로 부터 패턴을 발견하려고 시도하기 때문 
+        > ex) 숫자인식, 동물 인식, 사람 얼굴 인식 등 <br/>
+        > ☞ 데이터의 세부사항은 달라도 비슷한 맥락에서 문제를 풀 수 있음 
+
+<br/>
 
 # 학습 예시 문제 
 * [MNIST 숫자 분류 학습](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning)
