@@ -4,7 +4,7 @@
 (prediction)
 
 * Machine Learning 작업 2 가지 <br/>
-    (1) 학습(learning) <br/>
+    (1) [학습(learning)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning) <br/>
     (2) 추론(inference) <br/>
     ※ p.95, 176 
 

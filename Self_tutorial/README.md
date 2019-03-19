@@ -23,3 +23,5 @@ Self study about deep learning coding without any deep learning API
 (2) [Signal Transmitting](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/1_NN)
 
 (3) [Inference](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/2_inference)
+
+(4) [Learning](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning)
