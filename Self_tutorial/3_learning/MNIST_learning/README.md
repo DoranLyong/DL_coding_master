@@ -3,7 +3,7 @@
 # MNIST number classifier learning 
 
 
-##  
+## 알아야 할 것들 
 
 ### (1) [데이터를 취급할 때 주의할 점](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/1_dataissue)
 
