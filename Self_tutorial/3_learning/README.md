@@ -1,7 +1,8 @@
 [(Self_tutorial)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial)
 # 학습(Learning)
 ## 컴퓨터가 데이터를 가지고 학습한다! 
-> 데이터의 패턴(규칙성) 찾기
+> 데이터의 패턴(규칙성) 찾기 <br/>
+> p. 107
 
 
 * Machine Learning 작업 2 가지 <br/>
