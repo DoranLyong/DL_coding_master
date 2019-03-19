@@ -32,4 +32,4 @@
         > <img src="e_6.1.png" width=140> 
 
 # 학습 예시 문제 
-* [MNIST 숫자 분류 학습]()
+* [MNIST 숫자 분류 학습](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning)
