@@ -1,7 +1,8 @@
 [(Self_tutorial)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial)
 # 학습(Learning)
 ## 컴퓨터가 데이터를 가지고 학습한다! 
-데이터의 패턴 찾기 
+> 데이터의 패턴(규칙성) 찾기
+
 
 * Machine Learning 작업 2 가지 <br/>
     (1) 학습(learning) <br/>
@@ -30,6 +31,32 @@
 
     * 매개변수 갱신 (찾을 방법대로 공부한다) <br/>
         > <img src="e_6.1.png" width=140> 
+
+<br/>
+
+# '데이터 주도 학습' 개요 
+### ★ 기계학습(machine learning)은 데이터가 생명이다. 
+* 오로지 데이터로 부터 '패턴을 발견' & '답을 찾음' 
+    > 덕분에 사람 중심의 접근방법( e.g. rule-base, logic )에서 벗어남 
+
+<br/>
+
+## 1. ML 패러다임 
+
+* (1) 특징<sub>feature</sub> 추출
+    * Descriptor(특징 변환기) 以 데이터의 본질적인 정보를 추출하는 과정  
+        > 보통 벡터<sub>vector</sub>자료 구조로 기술함 <br/>
+        > ex) SIFT, SURF, HOG ... etc.
+* (2) 특징 벡터군의 패턴 찾기
+    * ML 기술로 학습 시킴 
+        > ex) SVM, KNN, Deep Learning ... etc. 
+
+<br/>
+
+## 2. ML 프레임 워크 
+<center><img src="fig_4-2.png" width=450></center>
+
+
 
 # 학습 예시 문제 
 * [MNIST 숫자 분류 학습](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning)
