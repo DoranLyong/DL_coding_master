@@ -1,7 +1,9 @@
 [(back)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning)
 
 # MNIST number classifier learning 
+신경망을 학습시키기 위해 알아야 할 내용 정리 
 
+<br/>
 
 ## 알아야 할 것들 
 
