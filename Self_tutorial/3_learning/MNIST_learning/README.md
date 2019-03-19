@@ -1,20 +1,20 @@
 [(back)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning)
 
 # MNIST number classifier learning 
-신경망을 학습시키기 위해 알아야 할 내용 정리 
+신경망을 학습시키기 위해 알아야 할 기본적인 내용 정리 
 
 <br/>
 
 ## 알아야 할 것들 
 
-### (1) [데이터를 취급할 때 주의할 점](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/1_dataissue)
+#### (1) [데이터를 취급할 때 주의할 점](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/1_dataissue)
 
-### (2) [손실 함수](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function) (Loss function, = cost function, object function)
+#### (2) [손실 함수](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function) (Loss function, = cost function, object function)
 
-### (3) [미니배치 처리](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/3_mini-batch) (mini-batch process)
+#### (3) [미니배치 처리](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/3_mini-batch) (mini-batch process)
 > batch 처리 → 크흠... 한 번에 많이 넣으니 loss function 구하기 빡신데? → 그럼 mini-batch 
 
-### (4) [가중치 매개변수 갱신 방법](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter)
+#### (4) [가중치 매개변수 갱신 방법](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter)
 * 최적 탐색 알고리즘
     > ex) 손실 함수의 변화 방향 찾기 <br/>
     > ( 손실 함수가 최소가 되는 방향 찾기 → 손실 함수 미분... )
