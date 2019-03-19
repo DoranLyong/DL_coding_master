@@ -29,7 +29,7 @@
         > ex) GD, SGD, Adam ... etc  
 
     * 매개변수 갱신 (찾을 방법대로 공부한다) <br/>
-        > $\mathbf{W} =  \mathbf{W} - \rho \frac{\partial L}{\partial \mathbf{W}}$
+        > <img src="e_6.1.png" width=140> 
 
 # 학습 예시 문제 
 * [MNIST 숫자 분류 학습]()
