@@ -41,4 +41,4 @@ Q: ?!
     > 현재 신경망이 '훈련 데이터'얼마나 잘 처리 못 하는지를 나타냄 
 
 ### (2) 이유 
-* [왜 '<b>성능 나쁨</b>'을 지표로 사용할까?]()
+* [왜 '<b>성능 나쁨</b>'을 지표로 사용할까?](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function/in_detail_of_lossfunction)
