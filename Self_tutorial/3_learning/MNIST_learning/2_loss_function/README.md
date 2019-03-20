@@ -40,5 +40,12 @@ Q: ?!
 * '<b><span style="color:orange">나쁨의 정도</span></b>'를 나타내는 지표
     > 현재 신경망이 '훈련 데이터'얼마나 잘 처리 못 하는지를 나타냄 
 
+<br/>    
+
 ### (2) 이유 
 * [왜 '<b>성능 나쁨</b>'을 지표로 사용할까?](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function/in_detail_of_lossfunction)
+
+<br/>
+
+### (3) 종류 
+* [평균 제곱 오차(mean squared error, MSE)]()
