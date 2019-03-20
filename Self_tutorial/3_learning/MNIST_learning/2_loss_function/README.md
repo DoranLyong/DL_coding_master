@@ -48,4 +48,8 @@ Q: ?!
 <br/>
 
 ### (3) 종류 
-* [평균 제곱 오차(mean squared error, MSE)]()
+* [평균 제곱 오차(mean squared error, MSE)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function/1_MSE)
+
+* [교차 엔트로피 오차(cross entropy error, CEE)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function/2_CEE)
+
+* etc...
