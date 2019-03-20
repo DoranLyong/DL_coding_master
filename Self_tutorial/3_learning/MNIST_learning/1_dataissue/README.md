@@ -8,9 +8,11 @@
 ## 1. Data split 
 ### (1) 준비된 데이터를 다음과 같이 3개로 쪼갠다 
 * training set<sup>훈련 집합</sup>, validation set<sup>검증 집합</sup>, testing set<sup>시험 집합
-    * 훈련 데이터: 모델을 학습시켜 최적의 가중치 매개변수를 찾을 때 사용 
+    * 훈련 데이터: 모델을 학습시켜 최적의 가중치 매개변수를 찾을 때 사용 <br/>
+
     * 검증 데이터: 학습된 모델의 성능 평가 
         > train acurracy와 validation accuracy가 비슷하다 ⇒ overfitting이 적다 <br/>
+        
     * 시험 집합: unseen 데이터를 통해 모델의 성능 평가 
 
         > <img src="dataset.png" width=400>
