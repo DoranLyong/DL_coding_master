@@ -59,4 +59,5 @@
 이런 경우 데이터 일부를 추려 전체의 '근사치'로 이용해야 함 
 
 *** 
-## <img src="5_how_to_do.png" width=35> 미니배치(mini-batch)학습 방법 
+## <img src="5_how_to_do.png" width=35> [미니배치(mini-batch)학습 방법](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/3_mini-batch/mini_batch_learning)
+* 구현 
