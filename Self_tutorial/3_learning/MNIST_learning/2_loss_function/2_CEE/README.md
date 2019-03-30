@@ -22,6 +22,9 @@
 
 <img src="CEE_fig.png" width =350> <br/>
 * 자연로그 y = log(x)의 그래프 
+
+<img src="CEE_fig2.png" width=350> <br/>
+* CEE = -log( ) 그래프 
 * y 출력 → 정답(1)  ⇒ CEE → 0 
     > 출력이 정답에 가까우면, 오차는 0에 가까워짐 
 
