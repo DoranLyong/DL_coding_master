@@ -18,3 +18,35 @@
 
 *** 
 
+## 탄생 배경 
+※ ```모델의 학습 상태가 얼마나 나쁜지 수치화```: [손실 함수(loss function)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function)
+
+<b>__ML 문제 풀이법__</b>
+* 훈련 데이터에 대한 ```손실 함수의 값을 구함```
+* 그 값을 최대한 줄여주는 ```매개변수를 찾는 과정을 반복```
+    * 즉, ```모든 훈련 데이터를 대상으로``` 손실 함수 값을 구해야함 
+    > ex) 훈련 데이터 100개 → 100개의 손실 함수 값을 구하고 그 합(合)을 지표로 삼음 
+
+<br/>
+
+
+## 한번에 모든 훈련 데이터에  대한 손실 함수 구하기 (= 평균 손실 함수)
+[이전에는](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function) 데이터 하나에 대한 손실 함수만 구함 
+
+<br/>
+
+모든 훈련 데이터에 대한 CEE<sup>cross-entropy error</sup> 손실 함수의 합은, 
+
+<img src="mean_loss.png" width=350> <img src="mini-batch.png" width=350>
+* N : 총 데이터 개수 
+* k : 한 데이터의 차원 수 
+* t<sub>nk</sub>: n번째 데이터의 k번째 정답 레이블 값 
+* y<sub>nk</sub>: n번째 데이터의 k번째 신경망 출력 
+
+※ 헷갈리면 [(참고1)](https://blog.naver.com/cheeryun/221380130245) [(참고2)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function/2_CEE)
+
+### ★ 마지막에 N으로 나누어 (1/N) 정규화 시킴 
+⇒ ```평균 손실 함수```를 구함  
+> 각 데이터에 대한 손실 함수 값 분포를 평균냄 
+
+※ [평균](https://blog.naver.com/cheeryun/221336576844): 데이터 분포의 대푯값 구하기 
