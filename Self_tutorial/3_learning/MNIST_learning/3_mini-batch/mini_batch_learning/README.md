@@ -1,6 +1,8 @@
 [(back)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/3_mini-batch)
 
-# 미니 배치 학습법(mini-batch learning)
+# 미니 배치 학습법(mini-batch learning) 
+※ p.116
+
 통계 조사에서 전국민을 대상으로한 전수 조사는 비용이 많이듬. 
 * 그래서 <span style="color:orange"><b>모집단</b></span>을 추려서 근사치로 전체를 파악함 
 
@@ -72,3 +74,23 @@ if __name__ == "__main__":
 (100, 784)
 (100, 10)
 ```
+
+<br/>
+
+***
+
+## [<b>NOTE</b>] 
+텔레비전 시청률도 모든 세대의 텔레비전이 아니라 선택된 일부 가구의 텔레비전만을 대상으로 구함 <br/>
+
+### EXAMPLE
+* 경기도에서 무작위로 1,000가구 선정 
+* 1,000가구를 대상으로 시청률 계측 
+* 경기도 전체의 시청률로 근사 시킴 
+
+1,000가구의 시청률이 전체 시청률과 정확히 일치하지는 않음, 
+* 전체의 대략적인 값으로 사용할 수 있음 
+
+<br/>
+
+미니배치의 손실 함수도 일부 표본 데이터로 전체를 비슷하게 계측함 
+* 즉, 전체 훈련 데이터의 대표로서 무작위로 선택한 작은 덩어리(mini-batch)를 사용함 
