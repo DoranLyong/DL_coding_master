@@ -51,12 +51,15 @@
 
 ※ [평균](https://blog.naver.com/cheeryun/221336576844): 데이터 분포의 대푯값 구하기 
 
-### <img src="meeting_problem.png" width=35> 평균 손실 함수의 문제점 
+### <img src="meeting_problem.png" width=35> 전체 평균 손실 함수의 문제점 
 훈련 데이터 집합이 많으면 시간이 많이 듬 
 * ex) 훈련 데이터 60,000개 → 손실 함수 값 60,000개 구함 → 평균냄 
     > (빅 데이터 수준으로 더 많아지면 계산이 현실적으로 힘듬)
 
 이런 경우 데이터 일부를 추려 전체의 '근사치'로 이용해야 함 
+
+* ex) 훈련 데이터 60,000개 → 여기서 100개만 무작위로 뽑아라 → 손실 함수 값 100개 구함 → 100개에 대한 평균냄 
+    > 모집단으로 전체 계측 
 
 *** 
 ## <img src="5_how_to_do.png" width=35> [미니배치(mini-batch)학습 방법](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/3_mini-batch/mini_batch_learning)
