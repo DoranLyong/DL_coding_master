@@ -62,5 +62,6 @@
     > 모집단으로 전체 계측 
 
 *** 
-## <img src="5_how_to_do.png" width=35> [미니배치(mini-batch)학습 방법](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/3_mini-batch/mini_batch_learning)
-* 구현 
+## <img src="5_how_to_do.png" width=35> 미니배치(mini-batch)학습 방법
+* [미니 배치 처리](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/3_mini-batch/mini_batch_learning)
+* [배치용 손실 함수 구현]
