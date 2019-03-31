@@ -38,4 +38,9 @@
 * 편미분은 변수가 하나인 미분과 마찬가지로 <span style="color:orange"> 특정 장소의 기울기</span>를 구함 
     * 단, 여러 변수 중 목표 변수 하나에 초점을 맞추고 다른 변수는 상수 값으로 고정 
 
+<br/>
+
+# <img src="what_to_do_object.png" width=35> 편미분을 통해 다변수 함수의 기울기를 표현함 
+편미분의 결과인 <img src="partial_x0.gif">와 <img src="partial_x1.gif">를 벡터로 정리하면 다변수 함수의 <span style="color:skyblue">기울기(gradient)</span>가 됨 
+* 
 
