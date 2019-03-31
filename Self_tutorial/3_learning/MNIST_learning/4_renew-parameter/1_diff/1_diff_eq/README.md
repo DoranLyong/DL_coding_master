@@ -30,5 +30,6 @@ def numerical_diff(f, x):
 ## <img src="meeting_problem.png" width=35> [함수 차분 문제](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/1_diff/1_diff_eq/func_diff)
 * 애당초 컴퓨터로 차분을 계산하면 오차가 있음 
     > s(t + dt) -  s(t)
+* '중앙 차분'으로 계산 오차를 줄임 
 
 
