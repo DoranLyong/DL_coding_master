@@ -6,10 +6,12 @@
 ## <img src="2_where_to_do.PNG" width=35> 필요한 개념 
 * ### 미분
     * ### 미분 계산 법 
-        * 해석적 미분(analytic differentiation)
-        * 수치적 미분(numerical differentiation) <br/>
+        * 수치적 미분(numerical differentiation)
+        * 해석적 미분(analytic differentiation) 
+            > backpropagation으로 구현 됨 <br/>
+        
 
-    * 편미분(다변수 미분)
+    * ### 편미분(다변수 미분)
         * 다변수 함수의 기울기<sub>gradient</sub>
 
 <br/>
