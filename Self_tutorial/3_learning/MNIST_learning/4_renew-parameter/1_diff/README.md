@@ -8,7 +8,7 @@
     * <img  src="diff.gif" >   <b>[식 1]</b> <br/> 
         > 컴퓨터로 계산할 때 
 
-    * <img src="diff_math.gif"> <br/>
+    * <img src="diff_math.gif"> <b>[식 2]</b> <br/>
         > 수학적으로 표현 
 
 
@@ -16,4 +16,4 @@
 
 ## <img src="meeting_problem.png" width=35> 수치 미분의 문제점 
 
-### (1) 
+### 1.  [[식1] 대로 구현해보기](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/1_diff/1_diff_eq)
