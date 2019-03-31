@@ -30,9 +30,12 @@
 <b>__ EXAMPLE __ </b> f(x<sub>0</sub> ,  x<sub>1</sub>) = x<sub>0</sub><sup>2</sup> + x<sub>1</sub><sup>2</sup>을 변수 x<sub>0</sub> , x<sub>1</sub>에 대하여 미분하시오 
 
 
-### <img src="5_how_to_do.png" width=35> 편미분 방법 
+### <img src="5_how_to_do.png" width=35> [편미분 방법](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/1_diff/2_partial_deriv)
 * 어느 변수에 대한 미분인지를 먼저 구별해야 함 
     * x<sub>0</sub>에 대한 미분 :   <img src="partial_x0.gif" >
     * x<sub>1</sub>에 대한 미분 : <img src="partial_x1.gif">
+
+* 편미분은 변수가 하나인 미분과 마찬가지로 <span style="color:orange"> 특정 장소의 기울기</span>를 구함 
+    * 단, 여러 변수 중 목표 변수 하나에 초점을 맞추고 다른 변수는 상수 값으로 고정 
 
 
