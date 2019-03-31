@@ -37,6 +37,8 @@ def plot(X0_flat, X1_flat, grad):
 ```
 
 * ```-grad[0], -grad[1]```로 마이너스를 붙인 벡터 구현 
+    > <img src="-grad.png" width=300> <img src="+grad.png" width=300>  <br/>
+    > 순서대로 ```-grad```  and ```+grad```
 
 <br/>
 
