@@ -20,12 +20,19 @@
     * 반올림 오차 문제 이해
     * 함수 차분 문제 이해 
 
+<br/>
+
+***
 
 ## <img src="6_but_why.png" width=35> 편미분 (다변수 미분)
-* 다변수 함수에 대한 미분법 
+ 다변수 함수에 대한 미분법 ☞ 편미분 
     
 <b>__ EXAMPLE __ </b> f(x<sub>0</sub> ,  x<sub>1</sub>) = x<sub>0</sub><sup>2</sup> + x<sub>1</sub><sup>2</sup>을 변수 x<sub>0</sub> , x<sub>1</sub>에 대하여 미분하시오 
 
 
+### <img src="5_how_to_do.png" width=35> 편미분 방법 
+* 어느 변수에 대한 미분인지를 먼저 구별해야 함 
+    * x<sub>0</sub>에 대한 미분 :   <img src="partial_x0.gif" >
+    * x<sub>1</sub>에 대한 미분 : <img src="partial_x1.gif">
 
 
