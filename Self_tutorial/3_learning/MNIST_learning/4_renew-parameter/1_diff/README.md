@@ -42,5 +42,9 @@
 
 # <img src="what_to_do_object.png" width=35> 편미분을 통해 다변수 함수의 기울기를 표현함 
 편미분의 결과인 <img src="partial_x0.gif">와 <img src="partial_x1.gif">를 벡터로 정리하면 다변수 함수의 <span style="color:skyblue">기울기(gradient)</span>가 됨 
-* 
+* <img src="gradient_vector.gif">  
+
+    > <img src="gradient.jpg" width=200>
+
+* ## [구현](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/1_diff/3_gradient)
 
