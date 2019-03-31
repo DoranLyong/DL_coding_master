@@ -12,6 +12,6 @@
 ## 진정한 미분<sub>(진성한 접선)</sub>과 수치 미분<sub>(근사로 구한 접선)</sub>의 값은 다름 
 
 
-<img src="num_diff.png" width=600>
+<img src="num_diff2.png" width=600>
 
 * 
