@@ -48,3 +48,5 @@
 
 * ## [구현](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/1_diff/3_gradient)
 
+* ## [기울기(gradient)의 의미]()
+
