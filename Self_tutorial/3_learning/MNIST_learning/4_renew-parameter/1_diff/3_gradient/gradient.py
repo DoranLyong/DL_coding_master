@@ -35,9 +35,15 @@ def numerical_gradient( f, x ):
 
         x[idx] = tmp_val  # 값 복원  
 
+    return grad
+
 
 
 def main(): 
+    print(numerical_gradient(function, np.array([3.0, 4.0])))
+    print(numerical_gradient(function, np.array([0.0, 2.0])))
+    print(numerical_gradient(function, np.array([3.0, 0.0])))
+
     print("Done!")
 
 

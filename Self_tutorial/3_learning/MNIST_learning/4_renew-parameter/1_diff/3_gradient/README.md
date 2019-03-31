@@ -7,6 +7,7 @@
     > <img src="gradient.jpg" width=200> <br/>
 
 
+※ 수치 미분 구현 - [중앙 차분](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/1_diff/1_diff_eq/func_diff)
 
 ``` python 
 def function(x):  
@@ -15,7 +16,7 @@ def function(x):
 
     else: 
         return np.sum(x**2, axis=1)
-
+        
 
 def numerical_gradient( f, x ):
     h = 1e-4    # 0.0001 
@@ -34,6 +35,18 @@ def numerical_gradient( f, x ):
 
         grad[idx] = (fxh1 - fxh2) / (2*h)
 
-        x[idx] = tmp_val  # 값 복원 
+        x[idx] = tmp_val  # 값 복원  
+        
+    return grad
+
+>> numerical_gradient(function, np.array([3.0, 4.0]))
+[6. 8.]
+
+>> numerical_gradient(function, np.array([0.0, 2.0]))
+[0. 4.]
+
+>> numerical_gradient(function, np.array([3.0, 0.0]))
+[6. 0.]
 ```
-<img src="gradient_code.gif" width=500>
+
+<img src="gradient_hand.jpg" width=250>  <img src="gradient_code.gif" width=500>
