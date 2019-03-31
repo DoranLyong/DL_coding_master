@@ -32,6 +32,3 @@ def numerical_diff(f, x):
     > s(t + dt) -  s(t)
 
 
-
-※ 차분 : 임의 두 점에서의 함수 값들의 차이 
-* f(x<sub>1</sub>) -  f(x<sub>2</sub>)
