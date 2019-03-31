@@ -15,5 +15,8 @@ def numerical_diff(f, x):
 
 <br/>
 
-## <img src="meeting_problem.png" width=35> 반올림 오차(rounding error) 문제 
+## <img src="meeting_problem.png" width=35> [반올림 오차(rounding error) 문제](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/1_diff/1_diff_eq/rounding_error)
 * 컴퓨터가 표현할 수 있는 최소값이 제한 돼 있어서 생기는 문제 
+    
+    ∴ 컴퓨터가 표현할 수 있는 최소 값으로 dt를 설정해야 함 
+
