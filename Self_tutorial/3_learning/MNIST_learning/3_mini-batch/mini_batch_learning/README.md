@@ -1,6 +1,6 @@
 [(back)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/3_mini-batch)
 
-# 미니 배치 학습법(mini-batch learning) 
+# 미니 배치 처리(mini-batch processing) 
 ※ p.116
 
 통계 조사에서 전국민을 대상으로한 전수 조사는 비용이 많이듬. 
@@ -31,7 +31,7 @@ batch size가 너무 커서 전수 조사하기 힘듬
     * 정규화 & 인코딩 
 
 ```python 
- #!/usr/bin/python
+#!/usr/bin/python
 # -*- coding: utf-8 -*- 
 
 import sys, os 
