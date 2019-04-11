@@ -12,7 +12,7 @@
 ## <img src="5_how_to_do.png" width=35> 구현 내용 및 방식 
 * 입력 데이터가 하나일 때와 배치로 묶인 경우를 모두 처리할 수 있는 구현 
 * ```delta = 1e-7``` [(오버플로우 방지)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function/2_CEE)
-* ```x * y```  [원소별 곱셈](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/Requirement#Numpy)
+* ```t * np.log(y + delta)```  [원소별 곱셈](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/Requirement#Numpy)
 
 ### (1) 정답 레이블이 one-hot encoding일 때 
 ```python
