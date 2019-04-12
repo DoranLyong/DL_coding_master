@@ -18,4 +18,4 @@
 
 ## <img src="5_how_to_do.png" width=35> 최적 매개변수 탐색 기법의 본질 
 ### 1. [경사 하강법(gradient descent)](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/2_GD)
-### 2. 신경망에서의 기울기 
+### 2. [신경망에서의 기울기](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/3_gradient_in_network)
