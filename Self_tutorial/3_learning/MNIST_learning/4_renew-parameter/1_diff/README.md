@@ -47,6 +47,7 @@
     > <img src="gradient.jpg" width=200>
 
 * ### [구현](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/1_diff/3_gradient)
+    * 편미분의 결과를 벡터로 정리하기 
 
 * ### [기울기(gradient)의 의미](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/1_diff/4_plot_gradient)
     * 벡터장(vector field)를 만듬 
