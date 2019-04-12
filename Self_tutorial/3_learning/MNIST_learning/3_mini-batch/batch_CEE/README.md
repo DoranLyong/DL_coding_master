@@ -26,10 +26,12 @@ def cross_entropy_error(y, t):
     batch_size = y.shape[0]
     return -np.sum( t * np.log( y + delta) )y / batch_size
 ```
-<img src="one-hot.jpg" width=500>
+<center><img src="one-hot.jpg" width=550></center>
 
 
 ### (2) 정답 레이블이 '2'나 '7' 처럼 숫자 레이블로 주어졌을 때 
+* [배열 자료구조](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/Requirement#Numpy)
+* [행렬 곱으로 CEE 계산](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/2_loss_function/2_CEE)
 ```python 
 def cross_entropy_error(y, t): 
     
@@ -41,6 +43,7 @@ def cross_entropy_error(y, t):
     batch_size = y.shape[0]
     return -np.sum( np.log( y[np.arange(batch_size), t] + delta)) / batch_size 
 ```
+<center><img src="no-one-hot.jpg" width=550></center>
 
 <br/>
 
