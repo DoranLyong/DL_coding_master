@@ -42,16 +42,18 @@ def cross_entropy_error(y, t):
     return -np.sum( np.log( y[np.arange(batch_size), t] + delta)) / batch_size 
 ```
 
+<br/>
 
 *** 
+## Numpy 메소드 참고 
 ```python 
 
 y.ndim  == 1     ==> 벡터 (n,)
 y.ndim  == 2     ==> 행렬 (n,m)
 ```
-
+<b>__EXAMPLE __ </b>
 ``` python 
-__EXAMPLE __ 
+
 list = [ [1,2,3], [4,5,6] ]
 y = np.array(list)
 
@@ -62,9 +64,10 @@ y.shape
 y.size
 >> 6
 ```
+<br/>
 
+<b>__EXAMPLE __ </b>
 ```python 
-__EXAMPLE __ 
 list = [1,2,3]
 y = np.array(list)
 
