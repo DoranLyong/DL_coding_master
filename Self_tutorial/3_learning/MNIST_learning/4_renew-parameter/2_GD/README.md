@@ -23,7 +23,7 @@
 
 ## 사막에서 바늘 찾기  
 이러한 광대한 차원에서 손실 함수의 기울기(gradient)를 잘 이용해 함수의 최솟값을 찾으려는 것이 '경사 하강법'
-* ### [gradient_descent 구현]()
+* ### [gradient_descent 구현](https://github.com/DoranLyong/DL_coding_master/tree/master/Self_tutorial/3_learning/MNIST_learning/4_renew-parameter/2_GD/1_GD_implement)
 
 <img src="./gradient.png" width=400>
 
