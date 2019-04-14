@@ -19,6 +19,8 @@
     * 너무 크면 ⇒ 큰 값으로 발산 
     * 너무 작으면 ⇒ 거의 갱신 안 됨 
 
+* ['hyper parameter 개념' 참고](https://blog.naver.com/cheeryun/221513038055)
+
 ``` python 
 def gradient_descent(f, init_x, lr=0.01, step_num=100):
     x = init_x     # 초기 시작점 
