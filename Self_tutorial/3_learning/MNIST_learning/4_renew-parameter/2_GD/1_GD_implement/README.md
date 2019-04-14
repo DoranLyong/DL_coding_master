@@ -42,7 +42,7 @@ def gradient_descent(f, init_x, lr=0.01, step_num=100):
 
 *** 
 
-### 예시 문제: 경사법으로 f(x<sub>0</sub>, x<sub>1</sub>) = x<sub>0</sub><sup>2</sup> + x<sub>1</sub><sup>2</sup>의 최솟값 구하기 
+## 예시 문제: 경사법으로 f(x<sub>0</sub>, x<sub>1</sub>) = x<sub>0</sub><sup>2</sup> + x<sub>1</sub><sup>2</sup>의 최솟값 구하기 
 * 초깃값을 (-3.0, 4.0)으로 설정 
 * 학습률은 0.1로 설정 
 * 학습 반복 횟수는 100회 
