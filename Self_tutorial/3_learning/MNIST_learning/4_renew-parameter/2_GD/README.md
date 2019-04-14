@@ -47,7 +47,7 @@
     > 한정된 범위에서는 (상대적으로) 최솟값인 점 
 * 극댓값 : 국소적인 최대값 
 
-    <img src="relative.png" width = 300>
+    <img src="relative.PNG" width = 300>
 
 
 
